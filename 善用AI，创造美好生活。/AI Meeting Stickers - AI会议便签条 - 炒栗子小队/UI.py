@@ -85,7 +85,7 @@ def landing(obj_engine):
     
     col1, col2 = st.beta_columns(2)
     # Render the main screen with read me instruction in markdown format
-    readme_text = get_file_content("README.md")
+    readme_text = get_file_content("intro.md")
     #specialtext = 'this changes all the time'
     col1.markdown(readme_text, unsafe_allow_html=True)
     
